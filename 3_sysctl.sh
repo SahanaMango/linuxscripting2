@@ -5,6 +5,7 @@ echo "Configuring network kernel parameters..."
 
 declare -A sysctl_settings=(
     #disable ip forwarding
+    [net.ipv4.tcp_syncookies]=1
     [net.ipv4.ip_forward]=0
     [net.ipv6.conf.all.forwarding]=0
     #disable icmp redirects (used to optimize routing but not necessary from security standpoint)
