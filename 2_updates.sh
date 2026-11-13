@@ -50,4 +50,4 @@ systemctl enable --now apt-daily-upgrade.timer
 
 # now FINALLY run updates!!
 echo "getting upgrades now" 
-apt-get update && apt-get upgrade && apt-get dist-upgrade
+apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get autoclean
