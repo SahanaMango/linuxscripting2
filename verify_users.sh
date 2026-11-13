@@ -138,4 +138,8 @@ for admin in "${authorized_admins[@]}"; do
     fi
 done
 
-echo "MANGO: User verification complete!!"
+echo "changing insecure password of hulk hogan as observed in readme"
+
+echo "hhogan:Fr13ndlyN31ghb0r!" | chpasswd
+
+echo "user verification complete!!"
