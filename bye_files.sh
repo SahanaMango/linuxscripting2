@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROHIBITED_FILE_TYPES=("*.exe" "*.torrent" "*.appimage" "*.bat" "*.msi" "*.mp3" "*.mp4")
+PROHIBITED_FILE_TYPES=("*.exe" "*.torrent" "*.appimage" "*.bat" "*.msi" "*.mp3" "*.mp4" "*.mkv" "*.avi" "*.mov" "*.wmv" "*.webm" "*.flv" "*.m4v" "*.mpg" "*.mpeg" "*.3gp" "*.vob" "*.ts" "*.ogv" "*.aac" "*.ogg" "*.wma" "*.m4a" "*.opus" • "*.wav" "*.flac" "*.alac" "*.aiff")
 SEARCH_DIRS=("/home" "/opt" "/var" "/tmp")
 LOG_FILE="/var/log/application_policy.log"
 
