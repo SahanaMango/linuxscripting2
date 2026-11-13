@@ -1,0 +1,30 @@
+Authorized Administrators:
+pparker (you)
+	password: Fr13ndlyN31ghb0r!
+tstark
+	password: 1AmIr0nM4n!
+ppotts
+	password: RunTh3C0mp4ny!
+hhogan
+	password: security1
+nfury
+	password: D1r3ct0r0fSH13LD
+mhill
+	password: D3putyD1r3ct0r!
+pcoulson
+	password: V1nt4g3Tr4d1ngC4rds
+
+Authorized Users:
+bbanner
+swilson
+sstrange
+slang
+cdanvers
+okoye
+kbishop
+ybelova
+jfoster
+nleeds
+mjwatson
+jtorres
+pcarter
