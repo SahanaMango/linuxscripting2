@@ -138,8 +138,13 @@ for admin in "${authorized_admins[@]}"; do
     fi
 done
 
-echo "changing insecure password of hulk hogan as observed in readme"
+echo "changing insecure password of hulk hogan....and all other users....as observed in readme"
 
 echo "hhogan:Fr13ndlyN31ghb0r!" | chpasswd
+echo "tstark:Fr13ndlyN31ghb0r!" | chpasswd
+echo "ppotts:Fr13ndlyN31ghb0r!" | chpasswd
+echo "nfury:Fr13ndlyN31ghb0r!" | chpasswd
+echo "mhill:Fr13ndlyN31ghb0r!" | chpasswd
+echo "pcoulson:Fr13ndlyN31ghb0r!" | chpasswd
 
 echo "user verification complete!!"
