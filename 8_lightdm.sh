@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 sudo passwd -l root
 echo "locked root account"
 
